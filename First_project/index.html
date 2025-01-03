@@ -10,39 +10,126 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-Hello World!
-<!-- Добавление картинок -->
-<img src="dog.jpg" alt="">
-<!-- Создание ссылок -->
-<a href="http://wikipedia.com">Wikipedia</a>
-<a href="main.html">main.html</a>
-<!-- Создание нумерованного списка -->
-<ol>
-    <li></li>
-    <li></li>
-    <li></li>
-</ol>
-<!-- Создание маркированного списка -->
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-<!-- Создание таблицы -->
-<table border="2">
-    <!-- Строчка -->
-    <tr>
-        <!-- Элементы -->
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-    </tr>
-</table>
+<body>
+    Hello World!
+    <!-- Добавление картинок -->
+    <img src="dog.jpg" alt="">
+    <div></div>
+    <!-- Создание ссылок -->
+    <a href="http://wikipedia.com">Wikipedia</a>
+    <a href="main.html">main.html</a>
+    <!-- Создание нумерованного списка -->
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <!-- Создание маркированного списка -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- Создание таблицы c рамкой толщиной border -->
+    <table border="2">
+        <caption>Название таблицы</caption>
+        <!-- Строчка -->
+        <tr>
+            <!-- Элементы -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <table>
+        <caption>Таблица 2x4</caption>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <!-- Блочный тег div (создаёт абзацы) и строчный тег span -->
+    Lorem ipsum dolor sit amet consectetur
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div> elit. Voluptas consequuntur aliquid <span>Text</span> odio mollitia voluptatum quod alias accusamus, cumque adipisci sunt, eligendi pariatur repellendus similique assumenda saepe, a eaque. Laborum, expedita!
+    <!-- Тег hr добавляет горизонтальную линию-->
+    <hr>
+    <!-- Абзац текста в теге p -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores autem sapiente ut quisquam doloribus numquam totam, illum maxime dolorum error laudantium cupiditate! Ex quis voluptatem autem in commodi blanditiis.</p>
+    <!-- Теги заголовков -->
+    <h1>Заголовок</h1>
+    <h2>Заголовок</h2>
+    <h3>Заголовок</h3>
+    <h4>Заголовок</h4>
+    <h5>Заголовок</h5>
+    <h6>Заголовок</h6>
+    <!-- Сверстать - значит создать в html -->
+
+    <a href="resume.html">Моё резюме</a>
+
+    <!-- Создание формы для кнопок, текстовых полей -->
+    <form action="">
+        <!-- Кнопка -->
+        <button>Button</button>
+        <!-- Текстовое поле -->
+        <input type="text">
+        <!-- Кнопка через тег input -->
+        <input type="button" value="Btn">
+        <!-- Галочка -->
+        <input type="checkbox">
+        <!-- Выбор цвета -->
+        <input type="color">
+        <!-- Выбор даты -->
+        <input type="date">
+        <!-- Ввод чисел -->
+        <input type="number">
+        <!-- Ввод пароля -->
+        <input type="password">
+        <!-- Выбор только одного элемента в отличии от checkbox -->
+        <input type="radio">
+        <!-- Ползунок -->
+        <input type="range">
+        <!-- Выбор времени -->
+        <input type="time">
+        <!-- Выбор файла -->
+        <input type="file">
+        <!-- Добавление большого текстового поля -->
+        <textarea name="" id=""></textarea>
+        <!-- Выпадающее меню -->
+        <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+    </form>
+    <!-- Универсальные атрибуты тегов -->
+    <div hidden="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique molestias, quisquam facilis error illum fuga? Laborum repellendus necessitatibus provident suscipit voluptatem, ab ullam ipsum quibusdam enim omnis consequatur amet illum!</div>
+    <div title="Кто навёл тот лох">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae qui, quas ipsa, rem saepe accusamus earum vero blanditiis nihil omnis. Debitis minima quisquam doloremque ipsa distinctio ducimus cupiditate mollitia?</div>
+    <!-- Классы у элементов могут повторяться, но id должны быть УНИКАЛЬНЫ -->
+    <div class="divelement" id="divelement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem autem quibusdam, porro necessitatibus recusandae laboriosam expedita a eaque fugiat harum provident facilis odit beatae quia quisquam, laborum accusamus nam obcaecati.</div>
+    <div class="divelement" id="divelement1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem autem quibusdam, porro necessitatibus recusandae laboriosam expedita a eaque fugiat harum provident facilis odit beatae quia quisquam, laborum accusamus nam obcaecati.</div>
 </body>
 
 </html>
